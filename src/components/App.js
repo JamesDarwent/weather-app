@@ -17,8 +17,8 @@ import "../styles/App.css";
 
 const App = ({ location, forecasts }) => {
   return (
-    <div className="App">
-      <LocationDetails city={location.city} country={location.country} />;
+    <div className="weather-app">
+      <LocationDetails city={location.city} country={location.country} />
       <ForecastSummaries forecasts={forecasts} />
     </div>
   );
