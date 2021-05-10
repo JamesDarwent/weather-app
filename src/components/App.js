@@ -4,17 +4,6 @@ import LocationDetails from "./LocationDetails";
 import ForecastSummaries from "./ForecastSummaries";
 import "../styles/App.css";
 
-// const App = (props) => {
-//   const { location } = props;
-//   return (
-//     <div className="App">
-//       <LocationDetails city={location.city} country={location.country} />
-//     </div>
-//   );
-// };
-
-// Below is a deconstructed version of the above component
-
 const App = ({ location, forecasts }) => {
   return (
     <div className="weather-app">
